@@ -14,6 +14,8 @@ USE products;
   PRIMARY KEY (id)
 );
 
+SELECT * FROM products;
+
 INSERT INTO products (product_name, department_name, price, stock_quantity)
 VALUES ("binder", "school supplies", 2, 4);
 
